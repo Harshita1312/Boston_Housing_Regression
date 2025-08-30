@@ -1,9 +1,17 @@
-🏠 Boston Housing Regression Project
+# 🏠 Boston Housing Regression Project
 
-This project applies Supervised Machine Learning (Regression) to predict the median house value (MEDV) in the Boston Housing dataset.
-It demonstrates data preprocessing, model training, evaluation, visualization, and model comparison using Linear Regression, Ridge Regression, and Lasso Regression.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Notebook](https://img.shields.io/badge/View-Notebook-orange)](Boston_Housing_Regression.ipynb)
+[![Last Commit](https://img.shields.io/github/last-commit/Harshita1312/Boston_Housing_Regression?color=green)](https://github.com/Harshita1312/Boston_Housing_Regression/commits/main)
 
-📂 Project Structure
+This project applies **Supervised Machine Learning (Regression)** to predict the median house value (`MEDV`) in the Boston Housing dataset.  
+It demonstrates **data preprocessing, model training, evaluation, visualization, and model comparison** using **Linear Regression, Ridge Regression, and Lasso Regression**.
+
+---
+
+## 📂 Project Structure
+
 BostonHousingProject/
 │── boston_regression.py        # Main script with preprocessing, training & evaluation
 │── HousingData.csv             # Dataset (Boston Housing data)
@@ -12,53 +20,46 @@ BostonHousingProject/
 │── README.md                   # Project description
 │── .gitignore                  # Ignored files
 
-⚙️ Features
 
-Data Preprocessing
+---
 
-Handling missing values with median imputation
+## ⚙️ Features
+- **Data Preprocessing**
+  - Handling missing values with median imputation
+  - Feature scaling using StandardScaler
+- **Model Training**
+  - Linear Regression
+  - Ridge Regression
+  - Lasso Regression
+- **Evaluation Metrics**
+  - Mean Absolute Error (MAE)
+  - Mean Squared Error (MSE)
+  - Root Mean Squared Error (RMSE)
+  - R² Score
+- **Visualization**
+  - Residual plot
+  - Actual vs Predicted scatter plot
+- **Model Comparison**
+  - R² scores of Linear, Ridge, and Lasso regression
 
-Feature scaling using StandardScaler
+---
 
-Model Training
+## 📊 Results
+- Linear Regression provides a baseline performance.  
+- Ridge and Lasso are compared to check improvements from regularization.  
+- Diagnostic plots (residuals & scatter) are included to analyze model fit.
 
-Linear Regression
+---
 
-Ridge Regression
+## 🚀 How to Run
 
-Lasso Regression
+### Option 1: Run Notebook
+Open the notebook in Google Colab or Jupyter and run all cells:
+```bash
+jupyter notebook Boston_Housing_Regression.ipynb
+```
 
-Evaluation Metrics
-
-Mean Absolute Error (MAE)
-
-Mean Squared Error (MSE)
-
-Root Mean Squared Error (RMSE)
-
-R² Score
-
-Visualization
-
-Residual plot
-
-Actual vs Predicted scatter plot
-
-Model Comparison
-
-R² scores of Linear, Ridge, and Lasso regression
-
-📊 Results
-
-Linear Regression provides a baseline performance.
-
-Ridge and Lasso are compared to check improvements from regularization.
-
-Diagnostic plots (residuals & scatter) are included to analyze model fit.
-
-🚀 How to Run
-
-Clone the repository:
+### Option 2: Clone the repository:
 
 git clone https://github.com/<your-username>/Boston-Housing-Regression.git
 cd Boston-Housing-Regression
@@ -112,8 +113,8 @@ Deploying the model with Streamlit or Flask
 This project is licensed under the MIT License – see the LICENSE
  file for details.
 
-👩‍💻 Author: Harshita Jalan
-📌 GitHub: Harshita1312
+👩‍💻**Author**: Harshita Jalan
+📌**GitHub**: [Harshita1312](https://github.com/Harshita1312)
 
 👉 You only need to replace:
 
