@@ -112,8 +112,8 @@ Deploying the model with Streamlit or Flask
 This project is licensed under the MIT License – see the LICENSE
  file for details.
 
-👩‍💻 Author: Your Name
-📌 GitHub: your-username
+👩‍💻 Author: Harshita Jalan
+📌 GitHub: Harshita1312
 
 👉 You only need to replace:
 
